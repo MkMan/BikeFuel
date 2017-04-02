@@ -16,4 +16,7 @@
     <string name="new_odo">Odometer reading (km): </string>
     <string name="new_fuel_used">Fuel purchased (L): </string>
     <string name="new_fuel_cost">Purchase cost ($): </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
