@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BikeFuel</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="avg_fuel_display">Average fuel economy: </string>
+    <string name="total_fuel_display">Total No of Liters used: </string>
+    <string name="total_dollar_display">Total dollars spent: </string>
+
+    <string name="ok_button">Add</string>
+    <string name="cancel_button">Cancel</string>
+
+    <string name="new_odo">Odometer reading (km): </string>
+    <string name="new_fuel_used">Fuel purchased (L): </string>
+    <string name="new_fuel_cost">Purchase cost ($): </string>
+</resources>
