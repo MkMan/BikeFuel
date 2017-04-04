@@ -7,9 +7,9 @@
     android:id="@+id/frag_container"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <fragment android:name="com.example.mustafa.bikefuel.OverallStats"
+   <!-- <fragment android:name="com.example.mustafa.bikefuel.OverallStats"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout="@layout/fragment_overall_stats" />
+        tools:layout="@layout/fragment_overall_stats" />-->
 </FrameLayout>
 
