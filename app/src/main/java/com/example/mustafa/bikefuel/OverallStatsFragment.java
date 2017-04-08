@@ -12,19 +12,19 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import java.text.DecimalFormat;
-import static com.example.mustafa.bikefuel.MainActivity.fillUps;
 
-public class OverallStats extends Fragment {
+
+public class OverallStatsFragment extends Fragment {
 
     TextView averageDisplay;
     TextView totalLiterDisplay;
     TextView totalCostDisplay;
 
-    final DecimalFormat TWODECIMALPOINTS = new DecimalFormat("0.##");
 
 
 
-    public OverallStats() {
+
+    public OverallStatsFragment() {
         // Required empty public constructor
     }
 
@@ -59,9 +59,9 @@ public class OverallStats extends Fragment {
             }
         });
 
-        displayAvgConsumption();
+/*        displayAvgConsumption();
         displayTotalDollars();
-        displayTotalLiters();
+        displayTotalLiters();*/
 
         return view;
     }
@@ -70,12 +70,12 @@ public class OverallStats extends Fragment {
     public void onResume() {
         super.onResume();
 
-        displayAvgConsumption();
+/*        displayAvgConsumption();
         displayTotalDollars();
-        displayTotalLiters();
+        displayTotalLiters();*/
     }
 
-    //This method gets the total liters of fuel BOUGHT and displays it
+ /*   //This method gets the total liters of fuel BOUGHT and displays it
     public void displayTotalLiters(){
         totalLiterDisplay.setText(getText(R.string.total_fuel_display) + " " + sumFuel() + " L");
     }
@@ -116,6 +116,6 @@ public class OverallStats extends Fragment {
             retVal += i.getLitersFilled();
         }
         return retVal;
-    }
+    }*/
 
 }
