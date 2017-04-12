@@ -33,6 +33,9 @@ public class HistoryFragment extends Fragment {
 
         fillUpList = (ListView) v.findViewById(R.id.history_list_LV);
 
+        View header = inflater.inflate(R.layout.item_fillup_listheader,null);
+        fillUpList.addHeaderView(header);
+
         return v;
     }
 
@@ -44,7 +47,6 @@ public class HistoryFragment extends Fragment {
 
     public void loadListFillUps(){
         Cursor c = dbHelper.getAllFillUps ();
-        //fillUpList = (ListView) getActivity().findViewById(R.id.history_list_LV);
         ItemCursorAdapter itemAdapter = new ItemCursorAdapter(getContext(), c ,getActivity().getSupportFragmentManager());
         fillUpList.setAdapter(itemAdapter);
     }

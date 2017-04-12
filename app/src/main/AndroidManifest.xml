@@ -23,7 +23,6 @@
             android:name=".NewEntry"
             android:label="New fill up"
             android:screenOrientation="portrait"/>
-        <activity android:name=".History" />
     </application>
 
 </manifest>
